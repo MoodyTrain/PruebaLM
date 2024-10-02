@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo general suave */
+}
+
+header {
+    background-color: #8B4513; /* Marrón tierra */
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #556B2F; /* Verde oliva oscuro */
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #DEB887; /* Beige (madera clara) */
+    color: black;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: #F5DEB3; /* Trigo (tono claro) */
+}
+
+footer {
+    background-color: #8B4513; /* Mismo marrón del encabezado */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
